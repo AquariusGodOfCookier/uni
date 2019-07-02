@@ -1,0 +1,1 @@
+<view><radio-group data-event-opts="{{[['change',[['radioChange',['$event']]]]]}}" class="radio-group" bindchange="__e"><block wx:for="{{items}}" wx:for-item="item" wx:for-index="index" wx:key="name"><label class="radio"><radio value="{{item.name}}" checked="{{item.checked}}"></radio>{{''+item.value+''}}</label></block></radio-group></view>

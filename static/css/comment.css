@@ -1,0 +1,110 @@
+*{
+	margin: 0upx;
+	padding: 0upx;
+}
+.uni-page-head{
+	border-bottom: 3upx solid #F1F1F1 !important;
+}
+#Container{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding: 0upx 35upx;
+}
+.navhead{
+	width: 100%;
+	height: 120upx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: 5upx solid #F1F1F1;
+}
+.navheadcontainer{
+	font-size: 28upx;
+	height: 70upx;
+	margin-right: 20upx;
+	background-color: #F5F5F5;
+	text-align: center;
+	line-height: 70upx;
+	padding: 0upx 30upx;
+	border-radius: 30upx;
+}
+.navheadcontainer.active{
+	color: white;
+	background-color: red;
+}
+.remarkAssess{
+	width: 100%;
+	border-bottom: 3upx solid #F1F1F1;
+}
+.whoremark{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 35upx 0upx;
+	
+}
+.whoremark1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.whoremark2{
+	color: rgba(0,0,0,.5);
+}
+.whoremark .essaysname{
+	font-size: 26upx;
+	color: rgba(0,0,0,0.5);
+	margin-right: 20upx;
+}
+.whoremark .issuper{
+	width: auto;
+	height: 30upx;
+	color: rgba(255,0,0,0.7);
+	font-size: 26upx;
+	
+}
+.remarkcontent{
+	width: 100%;
+	margin:30upx 0upx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 30upx;
+}
+.isphoto{
+	display: flex;
+	justify-content: flex-start;
+}
+.isphoto image{
+	width: 80upx;
+	height: 120upx;
+	margin: 0upx 20upx;
+}
+.buywhat{
+	width: 100%;
+	height: 20%;
+	margin-top: 10upx;
+	margin-bottom:30upx ;
+	font-size: 25upx;
+	color: rgba(0,0,0,0.5);
+	
+}
+.isappend{
+	margin: 20upx 0upx;
+}
+.apply{
+	width: 100%;
+	font-size: 28upx;
+	background-color: #F0F0F0;
+	padding: 10upx 20upx;
+}
+.appendtime{
+	font-size: 25upx;
+	color: red;
+}
+.appendContent{
+	font-size: 30upx;
+	color: rgba(0,0,0,0.7);
+}

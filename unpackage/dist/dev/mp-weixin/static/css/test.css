@@ -1,0 +1,498 @@
+* {
+	margin: 0upx;
+	padding: 0upx;
+}
+/* 顶部滑动出现nav */
+.Cucustom{
+	width: 100%;
+	height: 100upx;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+.CucustomTitle{
+	width: 20%;
+	height: 100%;
+	font-size: 35upx;
+	text-align: center;
+	line-height: 100upx;
+	
+}
+.CucustomTitle.active{
+	color: #FF6700;
+	border-bottom: 3px solid #FF6700;
+}
+/* 顶部图片播放 */
+.PhotoContainer,
+.screen-swiper {
+	width: 100%;
+	height: 800upx;
+}
+
+.BackOrCar {
+	width: 100%;
+	height: 70upx;
+	position: absolute;
+	top: 40upx;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	padding: 0upx 50upx;
+}
+
+.BCS {
+	width: 50upx;
+	height: 50upx;
+	border-radius: 25upx;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.Back image {
+	width: 35upx;
+	height: 35upx;
+	background-size: 35upx;
+	position: relative;
+	left: 10upx;
+	top: 10upx;
+}
+
+.Car image {
+	width: 35upx;
+	height: 35upx;
+	background-size: 35upx;
+	position: relative;
+	left: 10upx;
+	top: 10upx;
+}
+
+/* 商品信息 */
+.AboutGoodsInforContent {
+	width: 100%;
+	height: auto;
+	background-color: white;
+	padding: 1upx 20upx 1upx 20upx;
+}
+
+.NewMoney {
+	margin-top: 20upx;
+	width: 100%;
+	height: 60upx;
+	display: flex;
+	align-items: center;
+}
+
+.NewMoney .NMRed {
+	color: red;
+	float: left;
+	font-size: 50upx;
+}
+
+.NewMoney .NMAC {
+	float: left;
+	text-align: center;
+	margin-left: 20upx;
+	background-color: #FFF1EB;
+	border-radius: 10upx;
+	color: red;
+	font-size: 20upx;
+}
+
+.OldMoeny {
+	font-size: 25upx;
+	color: rgb(0, 0, 0, 0.5);
+	margin: 10upx 0upx;
+}
+
+.GoosName {
+	font-size: 30upx;
+	font-weight: 600;
+}
+
+.OthersInfo {
+	margin: 20upx 0upx;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Others {
+	color: rgb(0, 0, 0, 0.5);
+	font-size: 25upx;
+}
+
+/* 中部店家信息 */
+/* .AboutBusinessInforContent {
+	margin-top: 25upx;
+	width: 100%;
+	height: 400upx;
+	background-color: white;
+	padding: 1upx 20upx 1upx 20upx;
+}
+.Promotion {
+	width: 100%;
+	height: 100upx;
+	background-color: green;
+}
+.Service {
+	width: 100%;
+	height: 100upx;
+	background-color: blue;
+} */
+/* <!-- 中部关于商品信号部分 --> */
+.AboutGoosSize{
+	width: 100%;
+	height: 200upx;
+	margin-top: 25upx;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0upx 20upx;
+}
+.choose,.size{
+	width: 100%;
+	height: 100upx;
+	
+}
+.title{
+	float: left;
+	color: rgb(0,0,0,0.5);
+	line-height: 100upx;
+}
+.titlecontext{
+	float: left;
+	margin-left: 20upx;
+	line-height: 100upx;
+}
+.icons{
+	float: right;
+	line-height: 100upx;
+	font-size: 30upx;
+}
+/* <!-- 中部序商品评价与问大家 --> */
+.AboutGoosAssess{
+	width: 100%;
+	margin-top: 25upx;
+	background-color: white;
+	padding: 1upx 20upx 1upx 20upx;
+	overflow: hidden;
+}
+.remarkTitle{
+	width: 100%;
+	height: 100upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.number-assess{
+	font-size: 35upx;
+}
+.say-all{
+	font-size: 25upx;
+	color: red;
+}
+.remarkSpan{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+.remarkSpanContainer{
+	height: 60upx;
+	line-height: 60upx;
+	text-align: center;
+	font-size: 25upx;
+	background-color: #FFEEEE;
+	padding: 0px 25upx;
+	margin-right: 20upx;
+	border-radius: 30upx;
+}
+.remarkAssess{
+	width: 100%;
+	height: 200upx;
+}
+.whoremark{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20upx;
+}
+.whoremark image{
+	width: 50upx;
+	height: 50upx;
+	background-size: 100%;
+	margin-right: 30upx;
+	border-radius: 25upx;
+}
+.whoremark .essaysname{
+	font-size: 20upx;
+	color: rgba(0,0,0,0.5);
+	line-height: 50upx;
+	margin-right: 30upx;
+}
+.whoremark .issuper{
+	width: auto;
+	height: 30upx;
+	color: white;
+	font-size: 20upx;
+	background-color: #594c39;
+	box-sizing: content-box;
+}
+.remarkcontent{
+	width: 100%;
+	height: 70upx;
+	margin-top: 20upx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.buywhat{
+	width: 100%;
+	height: 20%;
+	margin-top: 20upx;
+	font-size: 25upx;
+	color: rgba(0,0,0,0.5);
+}
+
+/* <!-- 中部关于商家信息 --> */
+.AboutBussiness{
+	width: 100%;
+	margin-top: 25upx;
+	background-color: white;
+	padding:20upx;
+}
+.BussContainer{
+	width: 100%;
+	height: 120upx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.BussContainer image{
+	width: 100upx;
+	height: 100upx;
+}
+.numcon{
+	width: 80%;
+	height: 150upx;
+	padding-left: 30upx;
+	font-size: 20px;
+	font-weight: 500;
+	padding-top: 20upx;
+}
+.buswhere{
+	font-size: 15upx;
+	background-color: #FF0332;
+	color: white;
+	font-weight: 600;
+	width: 60upx;
+	text-align: center;
+	margin-top: 10upx;
+	border-radius: 10upx;
+	
+}
+.BussMiaoshu{
+	width: 100%;
+	height: 80upx;
+	display: flex;
+	justify-content: center;
+}
+.BussMiaoshuContext{
+	width: 30%;
+	text-align: center;
+	line-height: 80upx;
+	margin: 0upx 10upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.isup{
+	width: 30upx;
+	height: 30upx;
+	border-radius: 15upx;
+	margin-left: 5upx;
+}
+.up{
+	background-image: url('~@/static/img/up.png');
+	background-size: 30upx;
+}
+.balance{
+	background-image: url('~@/static/img/blance.png');
+	background-size: 30upx;
+}
+.BussButton{
+	width: 100%;
+	height: 70upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.BBButton{
+	width: 25%;
+	height: 50upx;
+	border-radius: 25upx;
+	border: 1px solid red;
+	color: red;
+	text-align: center;
+	line-height: 50upx;
+}
+.all-goos{
+	margin-right: 30upx;
+}
+/* <!-- 下部关于详情部分 --> */
+.BottomPhotoContent{
+	width: 100%;
+	margin-top: 25upx;
+}
+.BottomPhoto image{
+	position: relative;
+	top: -5upx;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+/* 底部 */
+.Foot {
+	width: 100%;
+	position: fixed;
+	bottom: 0upx;
+}
+
+.Foot .bv1 {
+	border-top-left-radius: 30upx;
+	border-bottom-left-radius: 30upx;
+}
+
+.Foot .bv2 {
+	border-top-right-radius: 30upx;
+	border-bottom-right-radius: 30upx;
+}
+
+
+/* 品牌型号模态框 */
+#sizemodel{
+	width: 100%;
+	height: 80%;
+}
+#sizemodel .padding-xl{
+	width: 100%;
+	height: 90%;
+}
+#sizemodel button{
+	width: 100%;
+	height: 10%;
+	background-color: #FF0036;
+	font-size: 30upx;
+	color: white;
+	font-weight: 500;
+	text-align: center;
+	line-height: 100upx;
+	position: absolute;
+	bottom: 0upx;
+	left: 0upx;
+	padding: 0upx 20upx;
+}
+#sizemodel .BaseInfor{
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+#sizemodel .BaseInforname{
+	text-align: left;
+	width: 30%;
+	line-height: 80upx;
+	padding-left: 50upx;
+	color: rgba(0,0,0,0.5);
+}
+#sizemodel .BaseInfornamecontent{
+	text-align: left;
+	width: 70%;
+	line-height: 80upx;
+	padding-left: 50upx;
+}
+#sizemodel .others{
+	text-align: left;
+	justify-content: flex-start;
+	font-size: 40upx;
+	font-weight: 600;
+	padding: 20upx 0upx 20upx 50upx;
+}
+#choosemodel{
+	width: 100%;
+	height: 80%;
+	background-color: white;
+}
+#choosemodel .padding-xl{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	overflow: auto;
+}
+#choosemodel .choosemodelhead{
+	width: 90%;
+	height: 25%;
+	padding: 0upx 20upx;
+	border-bottom: 2px solid #F5F5F5;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#choosemodel .wodetianimg{
+	width: 200upx;
+	height: 200upx;
+	background-color: red;
+	background-size: 100% no-repeat;
+}
+#choosemodel .cmhiContainer{
+	width: 200upx;
+	height: 200upx;
+	border: 4px solid rgba(0,0,0,0.1);
+	box-sizing: content-box;
+	position: relative;
+	top: -50upx;
+	z-index: 9999;
+}
+#choosemodel .main{
+	width: 50%;
+	height: 200upx;
+	background-color: red;
+}
+#choosemodel .back{
+	width: 50upx;
+	height: 50upx;
+	background-color: blue;
+	background-size: 100% no-repeat;
+}
+#choosemodel .Button{
+	width: 100%;
+	height: 8%;
+	position: fixed;
+	bottom: 0upx;
+	left: 0upx;
+	display: flex;
+	justify-content: center;
+}
+#choosemodel .Button .gocar,#choosemodel .Button .buynow{
+	width: 50%;
+	height: 100%;
+	font-size: 35upx;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	line-height: 120upx;
+}
+#choosemodel .Button .gocar{
+	background-color: #FF9500;
+}
+#choosemodel .Button .buynow{
+	background-color: #FF0036;
+}

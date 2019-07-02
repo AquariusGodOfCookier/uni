@@ -1,0 +1,219 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.sw-img{
+	width: 750upx;
+	height: 100%;
+}
+.Function{
+	width: 100%;
+	height: 300upx;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.Function-Content{
+	width: 18%;
+	height: 100upx;
+	display: inline-block;
+	
+}
+.ImgContainer{
+	width: 100upx;
+	height: 90upx;
+	margin:0px auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.title{
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 12px;
+	margin-top: 2upx;
+	color: gray;
+	width: 100%;
+}
+.HeadLines{
+	width: 100%;
+	height: 150upx;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+.HeadLinesTitle{
+	width: 150upx;
+	height: 150upx;
+	display: inline-block;
+	font-size: 55upx;
+	padding-left: 30upx;
+}
+.HeadLinesSwiper{
+	width: 600upx;
+	height: 150upx;
+	display: inline-block;
+}
+.swiper-item{
+	width: 100%;
+	height: 150upx;
+}
+.swiper-containers{
+	display: block;
+	width: 400upx;
+	height: 50%;
+	margin-left: 30upx;
+	margin-top: 5upx;
+}
+.toutiaoimg{
+	width: 150upx;
+	height: 150upx;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.remen{
+	display: inline-block;
+	font-size: 30upx;
+	color: red;
+	border: 1px solid red;
+}
+.HeadContainer{
+	display: inline-block;
+	font-size: 30upx;
+	color: black;
+}
+/* <!-- 淘抢购 有好货 哇哦视频 必买清单 --> */
+.FourTypes{
+	width: 100%;
+	height: 400upx;
+	display: inline-block;
+	margin-top: 50upx;
+	padding-left: 20upx;
+	}
+.FourTypesContent{
+	width: 50%;
+	height: 180upx;
+	padding: 5upx 30upx 20upx 30upx;
+	display: inline-block;
+}
+.FourTypesTitle{
+	color: #ee9e9e;
+	font-size: 30upx;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+.FourTypesMiddleImg{
+	width: 70%;
+	height: 70%;
+	background-size: 100% no-repeat;
+	display: inline-block;
+	float: left;
+}
+.FourTypesBigImg{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+}
+.MiddleImg,.BigImg{
+	margin-top: 20upx;
+	width: 100%;
+	height: 80%;
+	background-size: auto;
+}
+/* 猜你喜欢 */
+/* 这里最后要删除 */
+.IBelieveYouLike{
+	width: 100%;
+}
+.IBYTitle{
+	width: 100%;
+	height: 100upx;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	line-height: 100upx;
+	font-size: 45upx;
+	font-weight: 600;
+	color: #FF6700;
+	background-color: white;
+}
+.IBYTitle span image{
+	width: 45upx;
+	height: 45upx;
+	background-size: 40upx;
+	background-position: center;
+	position: relative;
+	top: 10upx;
+	margin-right: 30upx;
+}
+.IBYPTitle span::after{
+	content: '你好';
+	width: 50upx;
+	height: 3upx;
+	background-color: black;
+}
+/* 猜你喜欢分体框架 */
+.IBelieveContent{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	}
+.IBYListContent{
+	width: 49%;
+	height: 500upx;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20upx;
+	flex-wrap: wrap;
+	background-color: white;
+}
+/* 猜你喜欢图片 */
+.IBYPhoto{
+	width: 100%;
+	height: 75%;
+}
+.IBYPhoto image{
+	width: 100%;
+	height: 100%;
+	background-size: 100% no-repeat;
+}
+/* 图片的标题 */
+.IBYPTitle{
+	width: 100%;
+	height: 15%;
+	padding: 0upx 30upx;
+	text-align: left;
+	color: black;
+	overflow: hidden;
+	font-size: 28upx;
+	font-weight: 500;
+	float: left;
+	
+}
+
+/* 价钱与付款人数 */
+.IBYMoney{
+	width: 100%;
+	height: 10%;
+	padding: 0upx 30upx;
+}
+.IBYMoneys{
+	float: left;
+	color: red;
+	font-size: 35upx;
+	
+}
+.IBYMoneyP{
+	float: right;
+	color: srgb(35,35,35);
+	font-size: 18upx;
+	position: relative;
+	top: 25%;
+}

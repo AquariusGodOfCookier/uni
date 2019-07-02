@@ -1,0 +1,253 @@
+.sw-img{
+	width: 750rpx;
+	height: 100%;
+}
+.Function{
+	width: 100%;
+	height: 300rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.Function-Content{
+	width: 18%;
+	height: 100rpx;
+	display: inline-block;
+}
+.ImgContainer{
+	width: 100rpx;
+	height: 90rpx;
+	margin:0px auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+.title{
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 12px;
+	margin-top: 2rpx;
+	color: gray;
+	width: 100%;
+}
+.HeadLines{
+	width: 100%;
+	height: 150rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	overflow: hidden;
+}
+.HeadLinesTitle{
+	width: 150rpx;
+	height: 150rpx;
+	display: inline-block;
+	font-size: 55rpx;
+	padding-left: 30rpx;
+}
+.HeadLinesSwiper{
+	width: 600rpx;
+	height: 150rpx;
+	display: inline-block;
+}
+.swiper-item{
+	width: 100%;
+	height: 150rpx;
+}
+.swiper-containers{
+	display: block;
+	width: 400rpx;
+	height: 50%;
+	margin-left: 30rpx;
+	margin-top: 5rpx;
+}
+.toutiaoimg{
+	width: 150rpx;
+	height: 150rpx;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.remen{
+	display: inline-block;
+	font-size: 30rpx;
+	color: red;
+	border: 1px solid red;
+}
+.HeadContainer{
+	display: inline-block;
+	font-size: 30rpx;
+	color: black;
+}
+
+/* <!-- 淘抢购 有好货 哇哦视频 必买清单 --> */
+.FourTypes{
+	width: 100%;
+	height: 400rpx;
+	display: inline-block;
+	margin-top: 50rpx;
+	padding-left: 20rpx;
+}
+.FourTypesContent{
+	width: 50%;
+	height: 180rpx;
+	padding: 5rpx 30rpx 20rpx 30rpx;
+	display: inline-block;
+}
+.FourTypesTitle{
+	color: #ee9e9e;
+	font-size: 30rpx;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+.FourTypesMiddleImg{
+	width: 70%;
+	height: 70%;
+	background-size: 100% no-repeat;
+	display: inline-block;
+	float: left;
+}
+.FourTypesBigImg{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+}
+.MiddleImg,.BigImg{
+	margin-top: 20rpx;
+	width: 100%;
+	height: 80%;
+	background-size: auto;
+}
+
+/* 猜你喜欢 */
+
+/* 这里最后要删除 */
+.IBelieveYouLike{
+	width: 100%;
+}
+.IBYTitle{
+	width: 100%;
+	height: 100rpx;
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	line-height: 100rpx;
+	font-size: 45rpx;
+	font-weight: 600;
+	color: #FF6700;
+	background-color: white;
+}
+.IBYTitle ._span image{
+	width: 45rpx;
+	height: 45rpx;
+	background-size: 40rpx;
+	background-position: center;
+	position: relative;
+	top: 10rpx;
+	margin-right: 30rpx;
+}
+.IBYPTitle ._span::after{
+	content: '\4F60\597D';
+	width: 50rpx;
+	height: 3rpx;
+	background-color: black;
+}
+
+/* 猜你喜欢分体框架 */
+.IBelieveContent{
+	width: 100%;
+	height: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.IBYListContent{
+	width: 49%;
+	height: 500rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-bottom: 20rpx;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	background-color: white;
+}
+
+/* 猜你喜欢图片 */
+.IBYPhoto{
+	width: 100%;
+	height: 75%;
+}
+.IBYPhoto image{
+	width: 100%;
+	height: 100%;
+	background-size: 100% no-repeat;
+}
+
+/* 图片的标题 */
+.IBYPTitle{
+	width: 100%;
+	height: 15%;
+	padding: 0rpx 30rpx;
+	text-align: left;
+	color: black;
+	overflow: hidden;
+	font-size: 28rpx;
+	font-weight: 500;
+	float: left;
+}
+
+/* 价钱与付款人数 */
+.IBYMoney{
+	width: 100%;
+	height: 10%;
+	padding: 0rpx 30rpx;
+}
+.IBYMoneys{
+	float: left;
+	color: red;
+	font-size: 35rpx;
+}
+.IBYMoneyP{
+	float: right;
+	color: srgb(35,35,35);
+	font-size: 18rpx;
+	position: relative;
+	top: 25%;
+}
+

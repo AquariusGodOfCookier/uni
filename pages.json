@@ -1,0 +1,116 @@
+{
+	// https://uniapp.dcloud.io/collocation/pages?id=pages
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style":{
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"text":"\ue468",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/logo.ttf",
+							"text":"淘宝"
+						}],
+						"backgroundColor":"#FF852a",
+						"titleText":"首页",
+						"searchInput":{
+							"align":"center",
+							"autoFocus":true,
+							"backgroundColor":"#FF4E22",
+							"borderRadius":"10px",
+							"disabled":true,
+							"placeholder":"寻找宝贝店铺",
+							"placeholderColor":"white",
+							"fontSize":"18px"
+							
+						}
+					}
+				},
+				"onReachBottomDistance":100
+			}
+		}, {
+			"path": "pages/page/page",
+			"style":{
+				"navigationStyle":"custom"
+			}
+		},{
+			"path":"pages/LiveBroadCast/LiveBroadCast"
+		},{
+			"path":"pages/ShoppingCart/ShoppingCart"
+		},{
+			"path":"pages/My/My"
+		},{
+			"path":"pages/index/test",
+			"style":{
+				// 去掉默认的导航栏
+				"navigationStyle":"custom",
+				// 是否开启下拉刷新
+				"backgroundTextStyle":"light",
+				"navigationBarBackgroundColor":"#FF6700",
+				"navigationBarTextStyle":"black",
+				"navigationBarTitleText":"商品详情",
+				"app-plus":{
+					"scrollIndicator":"none"
+				}
+				
+			}
+			
+			
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        },{
+			"path":"pages/index/comment",
+			"style":{
+				"navigationBarTitleText":"评价",
+				"navigationBarBackgroundColor":"white"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// "enablePullDownRefresh":true
+	},
+	"tabBar":{
+		"color":"#8F8F94",
+		"selectedColor":"black",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"text":"首页",
+			"iconPath":"static/img/首页.png",
+			"selectedIconPath":"static/img/首页%20(1).png"
+		},{
+			"pagePath":"pages/page/page",
+			"text":"订单列表",
+			"iconPath":"static/img/订单—列表-填充.png",
+			"selectedIconPath":"static/img/订单—列表-填充%20(1).png"
+		},{
+			"pagePath":"pages/LiveBroadCast/LiveBroadCast",
+			"text":"直播",
+			"iconPath":"static/img/直播.png",
+			"selectedIconPath":"static/img/直播%20(1).png",
+			"fontSize":"12upx"
+		},{
+			"pagePath":"pages/ShoppingCart/ShoppingCart",
+			"text":"购物车",
+			"iconPath":"static/img/购物车.png",
+			"selectedIconPath":"static/img/购物车%20(1).png"
+		},{
+			"pagePath":"pages/My/My",
+			"text":"我的",
+			"iconPath":"static/img/我的.png",
+			"selectedIconPath":"static/img/我的%20(1).png"
+		}],
+		"backgroundColor":"whitesmoke",
+		"selectedColor":"black"
+	}
+
+}

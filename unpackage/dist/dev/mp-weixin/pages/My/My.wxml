@@ -1,0 +1,1 @@
+<cu-custom vue-id="1" bgColor="bg-gradual-blue" isBack="{{true}}" bind:__l="__l" vue-slots="{{['backText','content']}}"><view slot="backText">返回</view><view slot="content">导航栏</view></cu-custom>
